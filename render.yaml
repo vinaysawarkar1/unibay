@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: unibay-custom-pc-web
+    env: node
+    plan: free
+    region: oregon
+    buildCommand: pnpm install --frozen-lockfile && pnpm build
+    startCommand: pnpm start
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production

@@ -1,0 +1,399 @@
+{
+  "unibay-phantom-17": {
+    "images": [
+      "https://picsum.photos/seed/unibay-p17-hero/1600/1000",
+      "https://picsum.photos/seed/unibay-p17-side/1600/1000",
+      "https://picsum.photos/seed/unibay-p17-io/1600/1000",
+      "https://picsum.photos/seed/unibay-p17-rgb/1600/1000"
+    ],
+    "longDescription": "The Phantom 17 is built for UK gamers who want desktop-class frame rates in a mobile chassis. Vapour-chamber graphics cooling, MUX-capable GPU routing, and a high-bit-depth Mini-LED panel make it equally suited to HDR content review and competitive shooters. Every unit is stress-tested in our integration lab before dispatch.",
+    "technicalSections": [
+      {
+        "title": "Display & colour",
+        "rows": [
+          { "label": "Panel type", "value": "Mini-LED IPS-level stack, anti-glare" },
+          { "label": "Resolution & refresh", "value": "2560×1600 (QHD+), 240Hz VRR (G-SYNC compatible)" },
+          { "label": "Colour & HDR", "value": "100% DCI-P3 typical, DisplayHDR 1000 tier (panel dependent)" },
+          { "label": "Response", "value": "3ms grey-to-grey typical (overdrive tuned)" }
+        ]
+      },
+      {
+        "title": "Performance & thermals",
+        "rows": [
+          { "label": "CPU", "value": "Intel Core i9-14900HX, 24C/32T, vPro-ready silicon where configured" },
+          { "label": "GPU", "value": "NVIDIA GeForce RTX 4090 Laptop GPU, up to 175W TGP with Dynamic Boost" },
+          { "label": "Memory & storage", "value": "32GB DDR5-5600 SO-DIMM (2×16), 1TB PCIe Gen5 NVMe (user-upgradeable)" },
+          { "label": "Cooling", "value": "Vapour chamber + dual blowers, liquid metal optional on select builds" }
+        ]
+      },
+      {
+        "title": "Connectivity & expansion",
+        "rows": [
+          { "label": "Thunderbolt", "value": "Thunderbolt 5 (40Gbps), DisplayPort tunneling" },
+          { "label": "USB", "value": "USB 3.2 Gen2 Type-A ×3, USB-C 3.2 Gen2 ×1" },
+          { "label": "Networking", "value": "Wi-Fi 7 (802.11be), Bluetooth 5.4, 2.5GbE RJ45" },
+          { "label": "Audio", "value": "ESS-class DAC headphone amp, dual 2W + dual 2W woofers" }
+        ]
+      },
+      {
+        "title": "Physical, power & compliance",
+        "rows": [
+          { "label": "Dimensions (W×D×H)", "value": "395×294×24.9 mm (max foot print)" },
+          { "label": "Weight", "value": "Starting 2.80 kg (config dependent)" },
+          { "label": "Battery & adapter", "value": "99.9Wh class battery, 330W GaN slim adapter, UK 3-pin plug" },
+          { "label": "Security", "value": "TPM 2.0, Windows Hello IR camera, Kensington Nano slot" }
+        ]
+      }
+    ],
+    "whatsInTheBox": [
+      "UNIBAY Phantom 17 system",
+      "330W GaN UK power adapter + figure-8 lead",
+      "Quick-start & warranty booklet",
+      "Premium microfibre cloth"
+    ],
+    "warrantySummary": "36-month UK collect-and-return hardware warranty on parts and labour for manufacturing defects. Accidental damage cover available as an upgrade.",
+    "complianceNotes": "CE & UKCA marked for Great Britain. WEEE producer registration: dispose of electronics via local civic amenity sites. Energy label supplied at point of sale where required."
+  },
+  "unibay-phantom-15": {
+    "images": [
+      "https://picsum.photos/seed/unibay-p15-1/1600/1000",
+      "https://picsum.photos/seed/unibay-p15-2/1600/1000",
+      "https://picsum.photos/seed/unibay-p15-3/1600/1000"
+    ],
+    "longDescription": "Phantom 15 trims size without trimming thermal headroom. The OLED panel delivers inky blacks for cinematic HDR while the HX-class CPU and RTX 4080 keep high refresh esports fluid. Ideal for students and creators who commute between accommodation and LAN events.",
+    "technicalSections": [
+      {
+        "title": "Display",
+        "rows": [
+          { "label": "Panel", "value": "15.6\" QHD OLED, 165Hz, 0.2ms response" },
+          { "label": "Colour", "value": "100% DCI-P3, factory calibrated ΔE<2 target" },
+          { "label": "Brightness", "value": "500 nits typical SDR, VESA DisplayHDR True Black 500" }
+        ]
+      },
+      {
+        "title": "Core hardware",
+        "rows": [
+          { "label": "Processor", "value": "Intel Core i7-14700HX (20C/28T)" },
+          { "label": "Graphics", "value": "NVIDIA RTX 4080 Laptop GPU, MUX switch supported" },
+          { "label": "RAM & SSD", "value": "32GB DDR5-5600, 1TB PCIe Gen4 NVMe" },
+          { "label": "Battery", "value": "86Wh, 180W adapter, USB-C PD 100W travel mode" }
+        ]
+      },
+      {
+        "title": "Ports & wireless",
+        "rows": [
+          { "label": "I/O", "value": "Thunderbolt 4, HDMI 2.1, mini-DP 1.4a, 2.5GbE" },
+          { "label": "Wireless", "value": "Wi-Fi 6E, Bluetooth 5.3" },
+          { "label": "Audio", "value": "Hi-Res certified stereo + Nahimic 3D" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Phantom 15", "180W UK adapter", "Setup guide"],
+    "warrantySummary": "36-month UK warranty as standard; optional on-site next-business-day for business SKUs.",
+    "complianceNotes": "UKCA / CE. Ships with UK mains plug."
+  },
+  "unibay-spectre-16": {
+    "images": [
+      "https://picsum.photos/seed/unibay-sp16-1/1600/1000",
+      "https://picsum.photos/seed/unibay-sp16-2/1600/1000",
+      "https://picsum.photos/seed/unibay-sp16-3/1600/1000",
+      "https://picsum.photos/seed/unibay-sp16-4/1600/1000"
+    ],
+    "longDescription": "Spectre 16 targets colour-critical workflows: 4K OLED at 120Hz, wide gamut coverage, and CUDA acceleration for DaVinci Resolve and Blender. Dual Thunderbolt 5 ports feed high-bandwidth NVMe RAIDs and reference monitors without dongle clutter.",
+    "technicalSections": [
+      {
+        "title": "Creator display",
+        "rows": [
+          { "label": "Panel", "value": "16\" 4K OLED 120Hz, 10-bit processing path" },
+          { "label": "Gamut", "value": "100% DCI-P3, hardware calibration profile slot" },
+          { "label": "Touch", "value": "Optional touch layer (factory SKU dependent)" }
+        ]
+      },
+      {
+        "title": "Compute & memory",
+        "rows": [
+          { "label": "CPU", "value": "Intel Core i9-14900HX" },
+          { "label": "GPU", "value": "NVIDIA RTX 4090 Laptop, Studio Driver validated stack" },
+          { "label": "RAM", "value": "64GB DDR5-5600 (2×32GB)" },
+          { "label": "Storage", "value": "2TB PCIe Gen5 NVMe (secondary M.2 free on base tray)" }
+        ]
+      },
+      {
+        "title": "I/O & reliability",
+        "rows": [
+          { "label": "Thunderbolt", "value": "TB5 ×2, 120Gbps aggregate where host routing allows" },
+          { "label": "Card reader", "value": "SD Express 7.0" },
+          { "label": "Networking", "value": "Wi-Fi 7 + 2.5GbE" },
+          { "label": "ISV", "value": "Test matrices for Adobe CC, Autodesk, Foundry" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Spectre 16", "330W adapter", "Colour calibration report (sampled units)", "UK power lead"],
+    "warrantySummary": "36-month warranty including premium panel pixel policy (terms apply).",
+    "complianceNotes": "UKCA marked; ships with UK plug."
+  },
+  "unibay-stealth-14": {
+    "images": [
+      "https://picsum.photos/seed/unibay-st14-1/1600/1000",
+      "https://picsum.photos/seed/unibay-st14-2/1600/1000",
+      "https://picsum.photos/seed/unibay-st14-3/1600/1000"
+    ],
+    "longDescription": "Stealth 14 is the ultraportable line for hybrid workers: CNC aluminium shell, 1.6 kg travel weight class, and Ryzen AI NPU-assisted workloads for Teams background effects and light ONNX models. Performance mode lifts power limits when plugged into 100W USB-C PD.",
+    "technicalSections": [
+      {
+        "title": "Mobility",
+        "rows": [
+          { "label": "Display", "value": "14\" 2.8K OLED 120Hz" },
+          { "label": "Weight", "value": "From 1.60 kg" },
+          { "label": "Battery", "value": "72Wh, Rapid Charge to 50% in 30 min (65W adapter)" }
+        ]
+      },
+      {
+        "title": "Hardware",
+        "rows": [
+          { "label": "APU", "value": "AMD Ryzen 9 8945HS w/ Ryzen AI" },
+          { "label": "GPU", "value": "NVIDIA RTX 4070 Laptop 8GB" },
+          { "label": "Memory", "value": "32GB LPDDR5X on-board" },
+          { "label": "Storage", "value": "1TB Gen4 NVMe" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Stealth 14", "100W USB-C PD UK adapter", "USB-C to HDMI dongle"],
+    "warrantySummary": "24-month carry-in + optional accidental damage.",
+    "complianceNotes": "UKCA / CE; ErP Lot 26 compliant idle states."
+  },
+  "unibay-titan-pro": {
+    "images": [
+      "https://picsum.photos/seed/unibay-titan-1/1600/1000",
+      "https://picsum.photos/seed/unibay-titan-2/1600/1000",
+      "https://picsum.photos/seed/unibay-titan-3/1600/1000",
+      "https://picsum.photos/seed/unibay-titan-4/1600/1000"
+    ],
+    "longDescription": "Titan Pro is our halo desktop: hardline custom loop, dual D5 pumps in redundancy layout, and thermally sorted cable management for unobstructed airflow. Each build receives a documented leak test, overnight soak, and OCCT power virus before packing in a reusable flight case option.",
+    "technicalSections": [
+      {
+        "title": "Chassis & cooling",
+        "rows": [
+          { "label": "Case", "value": "UNIBAY Titan full tower, 4× tempered glass panels" },
+          { "label": "Loop", "value": "360mm + 360mm copper rads, nickel CPU/GPU blocks" },
+          { "label": "Fans", "value": "10× 120mm PWM, curve tuned for dBA targets" }
+        ]
+      },
+      {
+        "title": "Core platform",
+        "rows": [
+          { "label": "CPU", "value": "Intel Core i9-14900KS, tuned PL1/PL2 per chassis" },
+          { "label": "GPU", "value": "NVIDIA RTX 4090 24GB FE or AIB partner card (SKU dependent)" },
+          { "label": "RAM", "value": "64GB DDR5-6400 XMP kit, stability validated" },
+          { "label": "Storage", "value": "2TB Gen5 NVMe + 4TB SATA archive (hot-swap bay optional)" }
+        ]
+      },
+      {
+        "title": "Power & acoustics",
+        "rows": [
+          { "label": "PSU", "value": "1200W 80+ Titanium, ATX 3.1 ready" },
+          { "label": "Acoustics", "value": "Idle <22 dBA @1m typical in balanced fan curve" },
+          { "label": "Networking", "value": "10GbE + 2.5GbE dual NIC on select motherboards" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Titan Pro tower", "UK kettle lead", "Coolant top-up kit", "USB recovery media", "QC burn-in report"],
+    "warrantySummary": "36-month on-site (UK mainland) for liquid loop components included in first year; extended fluid service packs available.",
+    "complianceNotes": "Low Voltage Directive; WEEE registration on file; RoHS compliant BOM."
+  },
+  "unibay-vortex": {
+    "images": [
+      "https://picsum.photos/seed/unibay-vortex-1/1600/1000",
+      "https://picsum.photos/seed/unibay-vortex-2/1600/1000",
+      "https://picsum.photos/seed/unibay-vortex-3/1600/1000"
+    ],
+    "longDescription": "Vortex balances price-to-performance for 1440p ultra and 4K high settings gaming. Mesh-front intake, positive pressure dust filtration, and a 280mm AIO on the CPU keep boost clocks sustained during long sessions.",
+    "technicalSections": [
+      {
+        "title": "Platform",
+        "rows": [
+          { "label": "CPU", "value": "AMD Ryzen 9 9900X" },
+          { "label": "GPU", "value": "NVIDIA RTX 4080 Super 16GB" },
+          { "label": "RAM", "value": "32GB DDR5-6000 EXPO" },
+          { "label": "Storage", "value": "2TB PCIe Gen4 NVMe" }
+        ]
+      },
+      {
+        "title": "Cooling & PSU",
+        "rows": [
+          { "label": "CPU cooler", "value": "280mm AIO push/pull" },
+          { "label": "Case airflow", "value": "High-airflow mesh, dust filters serviceable from front" },
+          { "label": "PSU", "value": "850W 80+ Gold ATX 3.0" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Vortex mid tower", "UK power cable", "Wi-Fi antenna kit"],
+    "warrantySummary": "36-month return-to-base; GPU/CPU carry manufacturer warranty in parallel.",
+    "complianceNotes": "UKCA; ERP Lot 3 2019 compliant external power where applicable."
+  },
+  "unibay-creator-station": {
+    "images": [
+      "https://picsum.photos/seed/unibay-creator-1/1600/1000",
+      "https://picsum.photos/seed/unibay-creator-2/1600/1000",
+      "https://picsum.photos/seed/unibay-creator-3/1600/1000"
+    ],
+    "longDescription": "Creator Station pairs Threadripper throughput with ECC memory for editorial, CAD, and simulation pipelines. Dual NVMe RAID options and optional 10GbE accelerate NAS timelines for distributed UK studios.",
+    "technicalSections": [
+      {
+        "title": "Workstation silicon",
+        "rows": [
+          { "label": "CPU", "value": "AMD Ryzen Threadripper 7970X" },
+          { "label": "GPU", "value": "NVIDIA RTX 4090 24GB (pro driver stack optional)" },
+          { "label": "Memory", "value": "128GB DDR5-5600 ECC RDIMM (8×16)" },
+          { "label": "Storage", "value": "4TB NVMe RAID0 + 8TB cold tier NAS bundle option" }
+        ]
+      },
+      {
+        "title": "Expansion",
+        "rows": [
+          { "label": "PCIe", "value": "Gen5 x16 primary, Gen4 x8 secondary" },
+          { "label": "Networking", "value": "10GbE + 1GbE management port" },
+          { "label": "Audio", "value": "ASUS/Realtek reference codec, EMI shielded traces" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Creator Station", "IEC C19 UK lead", "RAID quick reference"],
+    "warrantySummary": "36-month on-site with priority parts for registered business customers.",
+    "complianceNotes": "UKCA; supports Windows 11 Pro for Workstations imaging."
+  },
+  "unibay-compact-fury": {
+    "images": [
+      "https://picsum.photos/seed/unibay-fury-1/1600/1000",
+      "https://picsum.photos/seed/unibay-fury-2/1600/1000",
+      "https://picsum.photos/seed/unibay-fury-3/1600/1000"
+    ],
+    "longDescription": "Compact Fury fits full-width GPUs in a sub-15 litre ITX volume. PCIe 4.0 riser, custom PSU cables, and tuned fan curves keep noise acceptable on a desk beside a monitor arm.",
+    "technicalSections": [
+      {
+        "title": "SFF layout",
+        "rows": [
+          { "label": "Volume", "value": "<15L class (configuration dependent)" },
+          { "label": "GPU clearance", "value": "Up to 330 mm triple-slot" },
+          { "label": "CPU cooler", "value": "240mm AIO or low-profile tower options" }
+        ]
+      },
+      {
+        "title": "Hardware",
+        "rows": [
+          { "label": "CPU", "value": "Intel Core i7-14700K" },
+          { "label": "GPU", "value": "NVIDIA RTX 4070 Ti Super 16GB" },
+          { "label": "RAM", "value": "32GB DDR5-5600 SFF-friendly kit" },
+          { "label": "PSU", "value": "750W SFX 80+ Gold" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Compact Fury", "SFF UK power cable", "Vertical stand feet"],
+    "warrantySummary": "24-month RTB; SFF thermal service pack recommended annually.",
+    "complianceNotes": "UKCA; VESA mount pattern optional accessory."
+  },
+  "unibay-monitor-32": {
+    "features": [
+      "KVM switch built-in",
+      "Hardware calibration LUT slot",
+      "Low blue-light hardware filter",
+      "PiP / PbP modes"
+    ],
+    "images": [
+      "https://picsum.photos/seed/unibay-mon32-1/1600/1000",
+      "https://picsum.photos/seed/unibay-mon32-2/1600/1000",
+      "https://picsum.photos/seed/unibay-mon32-3/1600/1000"
+    ],
+    "longDescription": "Vision 32 pairs a fast IPS panel with local dimming zones for HDR gaming and grading on a single display. HDMI 2.1 bandwidth supports modern consoles at 4K120 with VRR, while KVM features simplify dual-PC setups common in streaming rigs.",
+    "technicalSections": [
+      {
+        "title": "Panel & sync",
+        "rows": [
+          { "label": "Size & curve", "value": "32\" flat" },
+          { "label": "Refresh", "value": "144Hz native" },
+          { "label": "Adaptive sync", "value": "AMD FreeSync Premium Pro, G-SYNC compatible" },
+          { "label": "Inputs", "value": "HDMI 2.1 ×2, DP 1.4 DSC, USB-C 90W PD" }
+        ]
+      },
+      {
+        "title": "Ergonomics",
+        "rows": [
+          { "label": "Stand", "value": "Height, tilt, swivel, pivot" },
+          { "label": "VESA", "value": "100×100 mm" },
+          { "label": "Hub", "value": "USB 3.2 hub 4-port downstream" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Vision 32 display", "UK IEC lead", "DP cable", "USB-B upstream"],
+    "warrantySummary": "36-month advanced replacement for panel defects (policy applies).",
+    "complianceNotes": "Energy label class B typical; UK plug factory fitted."
+  },
+  "unibay-keyboard-pro": {
+    "features": [
+      "Per-key RGB",
+      "Foam dampened stack",
+      "Magnetic wrist rest ready",
+      "Onboard macro layer"
+    ],
+    "images": [
+      "https://picsum.photos/seed/unibay-kb-1/1600/1000",
+      "https://picsum.photos/seed/unibay-kb-2/1600/1000"
+    ],
+    "longDescription": "Tactile Pro uses pre-lubed linear switches with polycarbonate top housings for a smooth, quiet office profile, while retaining rapid actuation for gaming. Dual-mode 2.4GHz / Bluetooth 5.1 with AES pairing and per-key RGB sync via UNIBAY Signal app.",
+    "technicalSections": [
+      {
+        "title": "Mechanical",
+        "rows": [
+          { "label": "Layout", "value": "UK ISO 105-key" },
+          { "label": "Hot-swap", "value": "5-pin MX compatible sockets" },
+          { "label": "Keycaps", "value": "Double-shot PBT, shine-through legends" },
+          { "label": "Stabilisers", "value": "Plate-mounted, factory tuned" }
+        ]
+      },
+      {
+        "title": "Electronics",
+        "rows": [
+          { "label": "Polling", "value": "1000 Hz wired / 1000 Hz 2.4GHz" },
+          { "label": "Battery", "value": "4000 mAh, up to 200h lighting off" },
+          { "label": "Software", "value": "UNIBAY Signal (Windows/macOS)" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Tactile Pro keyboard", "2.4GHz dongle", "USB-C charging cable"],
+    "warrantySummary": "24-month warranty; switch sockets covered for manufacturing defects only.",
+    "complianceNotes": "UKCA / RED for radio modules."
+  },
+  "unibay-mouse-apex": {
+    "features": [
+      "Onboard DPI clutch",
+      "Pure PTFE feet",
+      "Tournament lock switch",
+      "USB-C fast charge"
+    ],
+    "images": [
+      "https://picsum.photos/seed/unibay-mouse-1/1600/1000",
+      "https://picsum.photos/seed/unibay-mouse-2/1600/1000"
+    ],
+    "longDescription": "Apex is an esports-first shape under 60 g with optical main switches rated for 80M clicks. The sensor tracks reliably on cloth and hybrid pads; onboard profiles store DPI steps for tournament PCs without cloud login.",
+    "technicalSections": [
+      {
+        "title": "Sensor & switches",
+        "rows": [
+          { "label": "Sensor", "value": "32K DPI optical, 750 IPS, <1% error" },
+          { "label": "Switches", "value": "Optical, 0.2ms debounce" },
+          { "label": "Feet", "value": "PTFE virgin-grade, replacement set included" }
+        ]
+      },
+      {
+        "title": "Power & connectivity",
+        "rows": [
+          { "label": "Modes", "value": "2.4GHz / Bluetooth 5.2 / USB-C wired" },
+          { "label": "Battery", "value": "70h esports mode @1000Hz" },
+          { "label": "Weight", "value": "58 g ±1 g" }
+        ]
+      }
+    ],
+    "whatsInTheBox": ["Apex mouse", "Wireless dongle", "USB-C flex cable", "Grip tape sheet"],
+    "warrantySummary": "24-month RTB; battery capacity warranty 12 months.",
+    "complianceNotes": "UKCA / RED."
+  }
+}
