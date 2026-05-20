@@ -9,7 +9,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "fetch:sitemap": "node scripts/fetch_sitemap.js",
+    "extract:products": "node scripts/extract_product_urls.js",
+    "scrape:products": "node scripts/scrape_products.js",
+    "download:images": "node scripts/download_images.js"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
