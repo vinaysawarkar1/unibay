@@ -3,12 +3,12 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mongodb"
   url      = env("DATABASE_URL")
 }
 
 model User {
-  id             String      @id @default(uuid())
+  id             String      @id @default(cuid()) @map("_id")
   name           String?
   email          String?     @unique
   emailVerified  DateTime?
@@ -16,7 +16,7 @@ model User {
   hashedPassword String?
   role           String      @default("user")  // 'user' | 'admin'
 
-  // Profile (Amazon-style basic details)
+  // Profile
   phone          String?
   dateOfBirth    DateTime?
   gender         String?     // 'male' | 'female' | 'other' | 'prefer_not_to_say'
@@ -24,16 +24,16 @@ model User {
   createdAt      DateTime    @default(now())
   updatedAt      DateTime    @updatedAt
 
-  accounts       Account[]
-  sessions       Session[]
-  addresses      Address[]
-  cartItems      CartItem[]
-  orders         Order[]
+  accounts           Account[]
+  sessions           Session[]
+  addresses          Address[]
+  cartItems          CartItem[]
+  orders             Order[]
   emailVerifications EmailVerification[]
 }
 
 model Account {
-  id                String  @id @default(cuid())
+  id                String  @id @default(cuid()) @map("_id")
   userId            String
   type              String
   provider          String
@@ -47,10 +47,12 @@ model Account {
   session_state     String?
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
 }
 
 model Session {
-  id           String   @id @default(cuid())
+  id           String   @id @default(cuid()) @map("_id")
   sessionToken String   @unique
   userId       String
   expires      DateTime
@@ -59,6 +61,7 @@ model Session {
 }
 
 model VerificationToken {
+  id         String   @id @default(cuid()) @map("_id")
   identifier String
   token      String   @unique
   expires    DateTime
@@ -67,44 +70,44 @@ model VerificationToken {
 }
 
 model EmailVerification {
-  id        String   @id @default(cuid())
-  email     String
-  code      String
-  attempts  Int      @default(0)
-  maxAttempts Int   @default(3)
-  expires   DateTime
-  verified  Boolean  @default(false)
-  createdAt DateTime @default(now())
-  userId    String?
-  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  id          String   @id @default(cuid()) @map("_id")
+  email       String
+  code        String
+  attempts    Int      @default(0)
+  maxAttempts Int      @default(3)
+  expires     DateTime
+  verified    Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  userId      String?
+  user        User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([email])
   @@index([userId])
 }
 
 model Address {
-  id          String   @id @default(cuid())
-  userId      String
-  label       String?  // 'Home', 'Work', etc. — user-defined nickname
-  fullName    String
-  phone       String
-  line1       String
-  line2       String?
-  city        String
-  state       String?  // county / state
-  postcode    String
-  country     String   @default("United Kingdom")
-  isDefault   Boolean  @default(false)
-  createdAt   DateTime @default(now())
-  updatedAt   DateTime @updatedAt
+  id        String   @id @default(cuid()) @map("_id")
+  userId    String
+  label     String?  // 'Home', 'Work', etc.
+  fullName  String
+  phone     String
+  line1     String
+  line2     String?
+  city      String
+  state     String?
+  postcode  String
+  country   String   @default("United Kingdom")
+  isDefault Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
 
-  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
 }
 
 model CartItem {
-  id            String   @id @default(cuid())
+  id            String   @id @default(cuid()) @map("_id")
   userId        String
   quantity      Int      @default(1)
   configuration Json
@@ -114,16 +117,16 @@ model CartItem {
 }
 
 model Order {
-  id               String       @id @default(cuid())
-  userId           String
-  total            Float
-  status           String       @default("pending")  // pending | processing | shipped | delivered | cancelled
-  shippingAddress  Json?        // snapshot at order time
-  trackingNumber   String?
-  notes            String?
-  createdAt        DateTime     @default(now())
-  updatedAt        DateTime     @updatedAt
-  items            OrderItem[]
+  id              String      @id @default(cuid()) @map("_id")
+  userId          String
+  total           Float
+  status          String      @default("pending")  // pending | processing | shipped | delivered | cancelled
+  shippingAddress Json?
+  trackingNumber  String?
+  notes           String?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  items           OrderItem[]
 
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
@@ -132,9 +135,9 @@ model Order {
 }
 
 model OrderItem {
-  id          String   @id @default(cuid())
+  id          String @id @default(cuid()) @map("_id")
   orderId     String
-  productSnap  Json
+  productSnap Json
   quantity    Int
   price       Float
 
@@ -142,7 +145,7 @@ model OrderItem {
 }
 
 model Product {
-  id                String   @id @default(cuid())
+  id                String   @id @default(cuid()) @map("_id")
   slug              String   @unique
   name              String
   category          String   // 'laptop' | 'desktop' | 'accessory'
@@ -151,17 +154,17 @@ model Product {
   description       String?
   longDescription   String?
   basePrice         Float
-  images            Json     @default("[]")  // string[] of image URLs
+  images            Json     @default("[]")
   badge             String?
   rating            Float    @default(0)
   reviewCount       Int      @default(0)
-  specs             Json     @default("{}")  // Record<string,string>
-  features          Json     @default("[]")  // string[]
-  colors            Json     @default("[]")  // string[]
-  stock             String   @default("in_stock")  // in_stock | low_stock | out_of_stock | pre_order
+  specs             Json     @default("{}")
+  features          Json     @default("[]")
+  colors            Json     @default("[]")
+  stock             String   @default("in_stock")
   deliveryDays      Int      @default(5)
-  technicalSections Json?    // ProductTechnicalSection[]
-  whatsInTheBox     Json?    // string[]
+  technicalSections Json?
+  whatsInTheBox     Json?
   warrantySummary   String?
   complianceNotes   String?
   featured          Boolean  @default(false)
@@ -175,12 +178,12 @@ model Product {
 }
 
 model BlogPost {
-  id         String   @id @default(cuid())
+  id         String   @id @default(cuid()) @map("_id")
   slug       String   @unique
   title      String
   excerpt    String?
   coverImage String?
-  body       Json     @default("[]")  // string[] of paragraphs
+  body       Json     @default("[]")
   author     String?
   published  Boolean  @default(true)
   date       DateTime @default(now())
