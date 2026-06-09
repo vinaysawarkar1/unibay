@@ -1,0 +1,1607 @@
+{
+  "count": 267,
+  "items": [
+    {
+      "id": "migrated-gaming-computers",
+      "name": "gaming-computers",
+      "slug": "gaming-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/gaming-computers/"
+    },
+    {
+      "id": "migrated-computers-for-sale",
+      "name": "computers-for-sale",
+      "slug": "computers-for-sale",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers-for-sale/"
+    },
+    {
+      "id": "migrated-desktop-computers",
+      "name": "desktop-computers",
+      "slug": "desktop-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-computers/"
+    },
+    {
+      "id": "migrated-gaming-laptops",
+      "name": "gaming-laptops",
+      "slug": "gaming-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/gaming-laptops/"
+    },
+    {
+      "id": "migrated-cheap-computers",
+      "name": "cheap-computers",
+      "slug": "cheap-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/cheap-computers/"
+    },
+    {
+      "id": "migrated-online-computer-shops",
+      "name": "online-computer-shops",
+      "slug": "online-computer-shops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/online-computer-shops/"
+    },
+    {
+      "id": "migrated-buy-computers",
+      "name": "buy-computers",
+      "slug": "buy-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/buy-computers/"
+    },
+    {
+      "id": "migrated-computers-uk",
+      "name": "computers-uk",
+      "slug": "computers-uk",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers-uk/"
+    },
+    {
+      "id": "migrated-desktop-pc",
+      "name": "desktop-pc",
+      "slug": "desktop-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pc/"
+    },
+    {
+      "id": "migrated-game-based-computers",
+      "name": "game-based-computers",
+      "slug": "game-based-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/game-based-computers/"
+    },
+    {
+      "id": "migrated-custom-built-laptops",
+      "name": "custom-built-laptops",
+      "slug": "custom-built-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-built-laptops/"
+    },
+    {
+      "id": "migrated-custom-built-computers",
+      "name": "custom-built-computers",
+      "slug": "custom-built-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-built-computers/"
+    },
+    {
+      "id": "migrated-computers",
+      "name": "computers",
+      "slug": "computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/"
+    },
+    {
+      "id": "migrated-amd-computers",
+      "name": "amd-computers",
+      "slug": "amd-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/amd-computers/"
+    },
+    {
+      "id": "migrated-workstation-computers",
+      "name": "workstation-computers",
+      "slug": "workstation-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/workstation-computers/"
+    },
+    {
+      "id": "migrated-computers-for-next-day-delivery",
+      "name": "computers-for-next-day-delivery",
+      "slug": "computers-for-next-day-delivery",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers-for-next-day-delivery/"
+    },
+    {
+      "id": "migrated-custom-computers-and-laptops",
+      "name": "custom-computers-and-laptops",
+      "slug": "custom-computers-and-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-computers-and-laptops/"
+    },
+    {
+      "id": "migrated-intel-computers",
+      "name": "intel-computers",
+      "slug": "intel-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/intel-computers/"
+    },
+    {
+      "id": "migrated-buy-laptops",
+      "name": "buy-laptops",
+      "slug": "buy-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/buy-laptops/"
+    },
+    {
+      "id": "migrated-overclocked-computers",
+      "name": "overclocked-computers",
+      "slug": "overclocked-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/overclocked-computers/"
+    },
+    {
+      "id": "migrated-aio-computers",
+      "name": "aio-computers",
+      "slug": "aio-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/aio-computers/"
+    },
+    {
+      "id": "migrated-computers-next-day",
+      "name": "computers-next-day",
+      "slug": "computers-next-day",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers-next-day/"
+    },
+    {
+      "id": "migrated-intel-laptops",
+      "name": "intel-laptops",
+      "slug": "intel-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/intel-laptops/"
+    },
+    {
+      "id": "migrated-laptops",
+      "name": "laptops",
+      "slug": "laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/laptops/"
+    },
+    {
+      "id": "migrated-custom-pc",
+      "name": "custom-pc",
+      "slug": "custom-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-pc/"
+    },
+    {
+      "id": "migrated-pro-audio-computers",
+      "name": "pro-audio-computers",
+      "slug": "pro-audio-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/pro-audio-computers/"
+    },
+    {
+      "id": "migrated-top-spec-computers",
+      "name": "top-spec-computers",
+      "slug": "top-spec-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/top-spec-computers/"
+    },
+    {
+      "id": "migrated-intel-core-i5-laptops",
+      "name": "intel-core-i5-laptops",
+      "slug": "intel-core-i5-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/intel-core-i5-laptops/"
+    },
+    {
+      "id": "migrated-custom-laptops",
+      "name": "custom-laptops",
+      "slug": "custom-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/"
+    },
+    {
+      "id": "migrated-intel-core-i7-laptops",
+      "name": "intel-core-i7-laptops",
+      "slug": "intel-core-i7-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/intel-core-i7-laptops/"
+    },
+    {
+      "id": "migrated-thin-light-laptops",
+      "name": "thin-light-laptops",
+      "slug": "thin-light-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/thin-light-laptops/"
+    },
+    {
+      "id": "migrated-15-gaming-laptops",
+      "name": "15-gaming-laptops",
+      "slug": "15-gaming-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/15-gaming-laptops/"
+    },
+    {
+      "id": "migrated-professional-workstation-laptops",
+      "name": "professional-workstation-laptops",
+      "slug": "professional-workstation-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/professional-workstation-laptops/"
+    },
+    {
+      "id": "migrated-workstations-for-autodesk-product-design-suite",
+      "name": "workstations-for-autodesk-product-design-suite",
+      "slug": "workstations-for-autodesk-product-design-suite",
+      "sourceUrl": "https://www.pcspecialist.co.uk/workstations-for-autodesk-product-design-suite/"
+    },
+    {
+      "id": "migrated-amd-top-spec-computers",
+      "name": "amd-top-spec-computers",
+      "slug": "amd-top-spec-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/amd-top-spec-computers/"
+    },
+    {
+      "id": "migrated-gaming-editing-laptops",
+      "name": "gaming-editing-laptops",
+      "slug": "gaming-editing-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/gaming-editing-laptops/"
+    },
+    {
+      "id": "migrated-17-gaming-laptops",
+      "name": "17-gaming-laptops",
+      "slug": "17-gaming-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/17-gaming-laptops/"
+    },
+    {
+      "id": "migrated-amd-threadripper-computers",
+      "name": "amd-threadripper-computers",
+      "slug": "amd-threadripper-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/amd-threadripper-computers/"
+    },
+    {
+      "id": "migrated-business-desktop-pcs",
+      "name": "business-desktop-pcs",
+      "slug": "business-desktop-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/business-desktop-pcs/"
+    },
+    {
+      "id": "migrated-amd-am4-workstation",
+      "name": "amd-am4-workstation",
+      "slug": "amd-am4-workstation",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am4-workstation/"
+    },
+    {
+      "id": "migrated-amd-performance-mini",
+      "name": "AMD-performance-mini",
+      "slug": "amd-performance-mini",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/AMD-performance-mini/"
+    },
+    {
+      "id": "migrated-amd-am4-home-office",
+      "name": "amd-am4-home-office",
+      "slug": "amd-am4-home-office",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am4-home-office/"
+    },
+    {
+      "id": "migrated-amd-am4-gen3-pc",
+      "name": "amd-am4-gen3-pc",
+      "slug": "amd-am4-gen3-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am4-gen3-pc/"
+    },
+    {
+      "id": "migrated-amd-icue",
+      "name": "amd-icue",
+      "slug": "amd-icue",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-icue/"
+    },
+    {
+      "id": "migrated-intel-icue",
+      "name": "intel-icue",
+      "slug": "intel-icue",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-icue/"
+    },
+    {
+      "id": "migrated-amd-office-mini",
+      "name": "amd-office-mini",
+      "slug": "amd-office-mini",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-office-mini/"
+    },
+    {
+      "id": "migrated-intel-z790-ddr5-pc",
+      "name": "intel-z790-ddr5-pc",
+      "slug": "intel-z790-ddr5-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z790-ddr5-pc/"
+    },
+    {
+      "id": "migrated-intel-z690-sff-gaming",
+      "name": "intel-z690-sff-gaming",
+      "slug": "intel-z690-sff-gaming",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z690-sff-gaming/"
+    },
+    {
+      "id": "migrated-amd-am5-pc",
+      "name": "amd-am5-pc",
+      "slug": "amd-am5-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-pc/"
+    },
+    {
+      "id": "migrated-intel-nvidia-studio",
+      "name": "intel-nvidia-studio",
+      "slug": "intel-nvidia-studio",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-nvidia-studio/"
+    },
+    {
+      "id": "migrated-amd-nvidia-studio",
+      "name": "amd-nvidia-studio",
+      "slug": "amd-nvidia-studio",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-nvidia-studio/"
+    },
+    {
+      "id": "migrated-intel-z790-sidemen-pc",
+      "name": "intel-z790-sidemen-pc",
+      "slug": "intel-z790-sidemen-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z790-sidemen-pc/"
+    },
+    {
+      "id": "migrated-amd-am5-sidemen-pc",
+      "name": "amd-am5-sidemen-pc",
+      "slug": "amd-am5-sidemen-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-sidemen-pc/"
+    },
+    {
+      "id": "migrated-amd-liquid",
+      "name": "amd-liquid",
+      "slug": "amd-liquid",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-liquid/"
+    },
+    {
+      "id": "migrated-intel-asus-pba",
+      "name": "intel-asus-pba",
+      "slug": "intel-asus-pba",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-asus-pba/"
+    },
+    {
+      "id": "migrated-amd-asus-pba",
+      "name": "amd-asus-pba",
+      "slug": "amd-asus-pba",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-asus-pba/"
+    },
+    {
+      "id": "migrated-amd-am5-white",
+      "name": "amd-am5-white",
+      "slug": "amd-am5-white",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-white/"
+    },
+    {
+      "id": "migrated-amd-am5-overclocked",
+      "name": "amd-am5-overclocked",
+      "slug": "amd-am5-overclocked",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-overclocked/"
+    },
+    {
+      "id": "migrated-intel-z790-white",
+      "name": "intel-z790-white",
+      "slug": "intel-z790-white",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z790-white/"
+    },
+    {
+      "id": "migrated-intel-office-mini-ii",
+      "name": "intel-office-mini-ii",
+      "slug": "intel-office-mini-ii",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-office-mini-ii/"
+    },
+    {
+      "id": "migrated-intel-home-office-pc-v",
+      "name": "intel-home-office-pc-V",
+      "slug": "intel-home-office-pc-v",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-home-office-pc-V/"
+    },
+    {
+      "id": "migrated-amd-am5-workstation",
+      "name": "amd-am5-workstation",
+      "slug": "amd-am5-workstation",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-workstation/"
+    },
+    {
+      "id": "migrated-amd-sp5-1u",
+      "name": "amd-sp5-1u",
+      "slug": "amd-sp5-1u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-sp5-1u/"
+    },
+    {
+      "id": "migrated-amd-trx50-pc",
+      "name": "amd-trx50-pc",
+      "slug": "amd-trx50-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-trx50-pc/"
+    },
+    {
+      "id": "migrated-amd-b2b-ddr5",
+      "name": "amd-b2b-ddr5",
+      "slug": "amd-b2b-ddr5",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-b2b-ddr5/"
+    },
+    {
+      "id": "migrated-amd-am5-sff-gaming",
+      "name": "amd-am5-sff-gaming",
+      "slug": "amd-am5-sff-gaming",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-sff-gaming/"
+    },
+    {
+      "id": "migrated-amd-am5-audio",
+      "name": "amd-am5-audio",
+      "slug": "amd-am5-audio",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-audio/"
+    },
+    {
+      "id": "migrated-intel-b2b-vpro",
+      "name": "intel-b2b-vpro",
+      "slug": "intel-b2b-vpro",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-b2b-vpro/"
+    },
+    {
+      "id": "migrated-intel-z790-ddr5-audio",
+      "name": "intel-z790-ddr5-audio",
+      "slug": "intel-z790-ddr5-audio",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z790-ddr5-audio/"
+    },
+    {
+      "id": "migrated-intel-b2b-ddr5",
+      "name": "intel-b2b-ddr5",
+      "slug": "intel-b2b-ddr5",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-b2b-ddr5/"
+    },
+    {
+      "id": "migrated-amd-wrx90-pc",
+      "name": "amd-wrx90-pc",
+      "slug": "amd-wrx90-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-wrx90-pc/"
+    },
+    {
+      "id": "migrated-amd-sp5-2ug",
+      "name": "amd-sp5-2ug",
+      "slug": "amd-sp5-2ug",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-sp5-2ug/"
+    },
+    {
+      "id": "migrated-intel-1700-1u",
+      "name": "intel-1700-1u",
+      "slug": "intel-1700-1u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1700-1u/"
+    },
+    {
+      "id": "migrated-intel-4u-storage-sp",
+      "name": "intel-4u-storage-sp",
+      "slug": "intel-4u-storage-sp",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-4u-storage-sp/"
+    },
+    {
+      "id": "migrated-amd-sp5-2u",
+      "name": "amd-sp5-2u",
+      "slug": "amd-sp5-2u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-sp5-2u/"
+    },
+    {
+      "id": "migrated-intel-1700-mini",
+      "name": "intel-1700-mini",
+      "slug": "intel-1700-mini",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1700-mini/"
+    },
+    {
+      "id": "migrated-intel-1700-tower",
+      "name": "intel-1700-tower",
+      "slug": "intel-1700-tower",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1700-tower/"
+    },
+    {
+      "id": "migrated-amd-am5-mini",
+      "name": "amd-am5-mini",
+      "slug": "amd-am5-mini",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-mini/"
+    },
+    {
+      "id": "migrated-amd-am5-2u",
+      "name": "amd-am5-2U",
+      "slug": "amd-am5-2u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-2U/"
+    },
+    {
+      "id": "migrated-amd-am5-4u",
+      "name": "amd-am5-4U",
+      "slug": "amd-am5-4u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-4U/"
+    },
+    {
+      "id": "migrated-intel-asus-pba-z890",
+      "name": "intel-asus-pba-z890",
+      "slug": "intel-asus-pba-z890",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-asus-pba-z890/"
+    },
+    {
+      "id": "migrated-intel-z890-pc",
+      "name": "intel-z890-pc",
+      "slug": "intel-z890-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z890-pc/"
+    },
+    {
+      "id": "migrated-amd-wrx90-4u",
+      "name": "amd-wrx90-4U",
+      "slug": "amd-wrx90-4u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-wrx90-4U/"
+    },
+    {
+      "id": "migrated-amd-am4-sff",
+      "name": "amd-am4-sff",
+      "slug": "amd-am4-sff",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am4-sff/"
+    },
+    {
+      "id": "migrated-intel-1700-sff",
+      "name": "Intel-1700-sff",
+      "slug": "intel-1700-sff",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/Intel-1700-sff/"
+    },
+    {
+      "id": "migrated-intel-home-office-pc-vi",
+      "name": "intel-home-office-pc-VI",
+      "slug": "intel-home-office-pc-vi",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-home-office-pc-VI/"
+    },
+    {
+      "id": "migrated-intel-1851-4u",
+      "name": "intel-1851-4U",
+      "slug": "intel-1851-4u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1851-4U/"
+    },
+    {
+      "id": "migrated-pcs-azena-nuc",
+      "name": "pcs-azena-nuc",
+      "slug": "pcs-azena-nuc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/pcs-azena-nuc/"
+    },
+    {
+      "id": "migrated-intel-z890-overclocked",
+      "name": "intel-z890-overclocked",
+      "slug": "intel-z890-overclocked",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z890-overclocked/"
+    },
+    {
+      "id": "migrated-intel-icue-z890",
+      "name": "intel-icue-Z890",
+      "slug": "intel-icue-z890",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-icue-Z890/"
+    },
+    {
+      "id": "migrated-amd-9005gpu-4u",
+      "name": "amd-9005GPU-4U",
+      "slug": "amd-9005gpu-4u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005GPU-4U/"
+    },
+    {
+      "id": "migrated-intel-liquid-z890",
+      "name": "intel-liquid-Z890",
+      "slug": "intel-liquid-z890",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-liquid-Z890/"
+    },
+    {
+      "id": "migrated-intel-z890-white",
+      "name": "intel-z890-white",
+      "slug": "intel-z890-white",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-z890-white/"
+    },
+    {
+      "id": "migrated-vanguard-vi-27",
+      "name": "VanGuard-VI-27",
+      "slug": "vanguard-vi-27",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/VanGuard-VI-27/"
+    },
+    {
+      "id": "migrated-amd-9005-2u",
+      "name": "amd-9005-2u",
+      "slug": "amd-9005-2u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005-2u/"
+    },
+    {
+      "id": "migrated-vanguard-vii-24",
+      "name": "VanGuard-VII-24",
+      "slug": "vanguard-vii-24",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/VanGuard-VII-24/"
+    },
+    {
+      "id": "migrated-intel-z890-workstation",
+      "name": "intel-Z890-workstation",
+      "slug": "intel-z890-workstation",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-Z890-workstation/"
+    },
+    {
+      "id": "migrated-amd-9005-1u",
+      "name": "amd-9005-1U",
+      "slug": "amd-9005-1u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005-1U/"
+    },
+    {
+      "id": "migrated-amd-4005-tower",
+      "name": "amd-4005-tower",
+      "slug": "amd-4005-tower",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-4005-tower/"
+    },
+    {
+      "id": "migrated-intel-1700-plg",
+      "name": "intel-1700-plg",
+      "slug": "intel-1700-plg",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1700-plg/"
+    },
+    {
+      "id": "migrated-amd-4005-2u",
+      "name": "amd-4005-2U",
+      "slug": "amd-4005-2u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-4005-2U/"
+    },
+    {
+      "id": "migrated-intel-office-1l-ii",
+      "name": "intel-office-1L-ii",
+      "slug": "intel-office-1l-ii",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-office-1L-ii/"
+    },
+    {
+      "id": "migrated-intel-office-2l",
+      "name": "intel-office-2L",
+      "slug": "intel-office-2l",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-office-2L/"
+    },
+    {
+      "id": "migrated-intel-1851-2u",
+      "name": "intel-1851-2U",
+      "slug": "intel-1851-2u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1851-2U/"
+    },
+    {
+      "id": "migrated-intel-office-mini-iii",
+      "name": "intel-office-mini-iii",
+      "slug": "intel-office-mini-iii",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-office-mini-iii/"
+    },
+    {
+      "id": "migrated-amd-am5-2ul",
+      "name": "amd-am5-2UL",
+      "slug": "amd-am5-2ul",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-am5-2UL/"
+    },
+    {
+      "id": "migrated-amd-4005-1u",
+      "name": "amd-4005-1U",
+      "slug": "amd-4005-1u",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-4005-1U/"
+    },
+    {
+      "id": "migrated-intel-1851-2ul",
+      "name": "intel-1851-2UL",
+      "slug": "intel-1851-2ul",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/intel-1851-2UL/"
+    },
+    {
+      "id": "migrated-amd-9005-2ur",
+      "name": "amd-9005-2ur",
+      "slug": "amd-9005-2ur",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005-2ur/"
+    },
+    {
+      "id": "migrated-amd-9005-tower",
+      "name": "amd-9005-tower",
+      "slug": "amd-9005-tower",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005-tower/"
+    },
+    {
+      "id": "migrated-amd-9005-ws",
+      "name": "amd-9005-WS",
+      "slug": "amd-9005-ws",
+      "sourceUrl": "https://www.pcspecialist.co.uk/computers/amd-9005-WS/"
+    },
+    {
+      "id": "migrated-40",
+      "name": "40",
+      "slug": "40",
+      "sourceUrl": "https://www.pcspecialist.co.uk/clevo-laptops/40/"
+    },
+    {
+      "id": "migrated-4k-ready-pcs",
+      "name": "4k-ready-pcs",
+      "slug": "4k-ready-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/4k-ready-pcs/"
+    },
+    {
+      "id": "migrated-ai-laptops",
+      "name": "ai-laptops",
+      "slug": "ai-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/ai-laptops/"
+    },
+    {
+      "id": "migrated-amd-advantage",
+      "name": "amd-advantage",
+      "slug": "amd-advantage",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-advantage/"
+    },
+    {
+      "id": "migrated-amd",
+      "name": "amd",
+      "slug": "amd",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd/"
+    },
+    {
+      "id": "migrated-amd-gaming-computers",
+      "name": "amd-gaming-computers",
+      "slug": "amd-gaming-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-gaming-computers/"
+    },
+    {
+      "id": "migrated-amd-radeon-7000",
+      "name": "amd-radeon-7000",
+      "slug": "amd-radeon-7000",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-7000/"
+    },
+    {
+      "id": "migrated-amd-radeon-9060",
+      "name": "amd-radeon-9060",
+      "slug": "amd-radeon-9060",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-9060/"
+    },
+    {
+      "id": "migrated-all-in-one-computers",
+      "name": "all-in-one-computers",
+      "slug": "all-in-one-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/all-in-one-computers/"
+    },
+    {
+      "id": "migrated-amd-radeon-7600",
+      "name": "amd-radeon-7600",
+      "slug": "amd-radeon-7600",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-7600/"
+    },
+    {
+      "id": "migrated-amd-radeon-9000",
+      "name": "amd-radeon-9000",
+      "slug": "amd-radeon-9000",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-9000/"
+    },
+    {
+      "id": "migrated-amd-radeon-7800",
+      "name": "amd-radeon-7800",
+      "slug": "amd-radeon-7800",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-7800/"
+    },
+    {
+      "id": "migrated-amd-ryzen-5000-g",
+      "name": "amd-ryzen-5000-g",
+      "slug": "amd-ryzen-5000-g",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-5000-g/"
+    },
+    {
+      "id": "migrated-amd-radeon-pro-7000",
+      "name": "amd-radeon-pro-7000",
+      "slug": "amd-radeon-pro-7000",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-radeon-pro-7000/"
+    },
+    {
+      "id": "migrated-amd-ryzen-8000-g",
+      "name": "amd-ryzen-8000-g",
+      "slug": "amd-ryzen-8000-g",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-8000-g/"
+    },
+    {
+      "id": "migrated-amd-ryzen-9800x3d",
+      "name": "amd-ryzen-9800x3d",
+      "slug": "amd-ryzen-9800x3d",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-9800x3d/"
+    },
+    {
+      "id": "migrated-amd-ryzen-7000",
+      "name": "amd-ryzen-7000",
+      "slug": "amd-ryzen-7000",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-7000/"
+    },
+    {
+      "id": "migrated-amd-ryzen-9000",
+      "name": "amd-ryzen-9000",
+      "slug": "amd-ryzen-9000",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-9000/"
+    },
+    {
+      "id": "migrated-amd-ryzen-radeon",
+      "name": "amd-ryzen-radeon",
+      "slug": "amd-ryzen-radeon",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-radeon/"
+    },
+    {
+      "id": "migrated-amd-threadripper",
+      "name": "amd-threadripper",
+      "slug": "amd-threadripper",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-threadripper/"
+    },
+    {
+      "id": "migrated-amd-ryzen-x3d",
+      "name": "amd-ryzen-x3d",
+      "slug": "amd-ryzen-x3d",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-ryzen-x3d/"
+    },
+    {
+      "id": "migrated-amd-why-we-game",
+      "name": "amd-why-we-game",
+      "slug": "amd-why-we-game",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/amd-why-we-game/"
+    },
+    {
+      "id": "migrated-apex-legends",
+      "name": "apex-legends",
+      "slug": "apex-legends",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/apex-legends/"
+    },
+    {
+      "id": "migrated-asus",
+      "name": "asus",
+      "slug": "asus",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus/"
+    },
+    {
+      "id": "migrated-assetto-corsa",
+      "name": "assetto-corsa",
+      "slug": "assetto-corsa",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/assetto-corsa/"
+    },
+    {
+      "id": "migrated-asus-b850",
+      "name": "asus-b850",
+      "slug": "asus-b850",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-b850/"
+    },
+    {
+      "id": "migrated-asus-gamesplanet-terms",
+      "name": "asus-gamesplanet-terms",
+      "slug": "asus-gamesplanet-terms",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-gamesplanet-terms/"
+    },
+    {
+      "id": "migrated-arc-raiders",
+      "name": "arc-raiders",
+      "slug": "arc-raiders",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/arc-raiders/"
+    },
+    {
+      "id": "migrated-asus-gx10",
+      "name": "asus-gx10",
+      "slug": "asus-gx10",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-gx10/"
+    },
+    {
+      "id": "migrated-asus-pba-commercial",
+      "name": "asus-pba-commercial",
+      "slug": "asus-pba-commercial",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-pba-commercial/"
+    },
+    {
+      "id": "migrated-asus-pba-creator",
+      "name": "asus-pba-creator",
+      "slug": "asus-pba-creator",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-pba-creator/"
+    },
+    {
+      "id": "migrated-asus-pba",
+      "name": "asus-pba",
+      "slug": "asus-pba",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-pba/"
+    },
+    {
+      "id": "migrated-asus-x870",
+      "name": "asus-x870",
+      "slug": "asus-x870",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-x870/"
+    },
+    {
+      "id": "migrated-asus-z790",
+      "name": "asus-z790",
+      "slug": "asus-z790",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-z790/"
+    },
+    {
+      "id": "migrated-asus-z890",
+      "name": "asus-z890",
+      "slug": "asus-z890",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/asus-z890/"
+    },
+    {
+      "id": "migrated-baldurs-gate",
+      "name": "baldurs-gate",
+      "slug": "baldurs-gate",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/baldurs-gate/"
+    },
+    {
+      "id": "migrated-civilization-vii",
+      "name": "civilization-vii",
+      "slug": "civilization-vii",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/civilization-vii/"
+    },
+    {
+      "id": "migrated-blackfriday",
+      "name": "blackfriday",
+      "slug": "blackfriday",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/blackfriday/"
+    },
+    {
+      "id": "migrated-battlefield-6",
+      "name": "battlefield-6",
+      "slug": "battlefield-6",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/battlefield-6/"
+    },
+    {
+      "id": "migrated-cod-warzone",
+      "name": "cod-warzone",
+      "slug": "cod-warzone",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/cod-warzone/"
+    },
+    {
+      "id": "migrated-corsair",
+      "name": "corsair",
+      "slug": "corsair",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair/"
+    },
+    {
+      "id": "migrated-corsair-5000t",
+      "name": "corsair-5000t",
+      "slug": "corsair-5000t",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair-5000t/"
+    },
+    {
+      "id": "migrated-corsair-gaming-cases",
+      "name": "corsair-gaming-cases",
+      "slug": "corsair-gaming-cases",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair-gaming-cases/"
+    },
+    {
+      "id": "migrated-corsair-ddr5",
+      "name": "corsair-ddr5",
+      "slug": "corsair-ddr5",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair-ddr5/"
+    },
+    {
+      "id": "migrated-corsair-icue",
+      "name": "corsair-icue",
+      "slug": "corsair-icue",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair-icue/"
+    },
+    {
+      "id": "migrated-corsair-elgato",
+      "name": "corsair-elgato",
+      "slug": "corsair-elgato",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/corsair-elgato/"
+    },
+    {
+      "id": "migrated-counterstrike",
+      "name": "counterstrike",
+      "slug": "counterstrike",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/counterstrike/"
+    },
+    {
+      "id": "migrated-crucial",
+      "name": "crucial",
+      "slug": "crucial",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/crucial/"
+    },
+    {
+      "id": "migrated-desktop-laptops",
+      "name": "desktop-laptops",
+      "slug": "desktop-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/desktop-laptops/"
+    },
+    {
+      "id": "migrated-ea-sports-fc",
+      "name": "ea-sports-fc",
+      "slug": "ea-sports-fc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/ea-sports-fc/"
+    },
+    {
+      "id": "migrated-elden-ring",
+      "name": "elden-ring",
+      "slug": "elden-ring",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/elden-ring/"
+    },
+    {
+      "id": "migrated-cyberpunk-2077",
+      "name": "cyberpunk-2077",
+      "slug": "cyberpunk-2077",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/cyberpunk-2077/"
+    },
+    {
+      "id": "migrated-f12025",
+      "name": "f12025",
+      "slug": "f12025",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/f12025/"
+    },
+    {
+      "id": "migrated-expedition-33",
+      "name": "expedition-33",
+      "slug": "expedition-33",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/expedition-33/"
+    },
+    {
+      "id": "migrated-dota-2",
+      "name": "dota-2",
+      "slug": "dota-2",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/dota-2/"
+    },
+    {
+      "id": "migrated-flight-simulator-computers",
+      "name": "flight-simulator-computers",
+      "slug": "flight-simulator-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/flight-simulator-computers/"
+    },
+    {
+      "id": "migrated-forza-horizon-6",
+      "name": "forza-horizon-6",
+      "slug": "forza-horizon-6",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/forza-horizon-6/"
+    },
+    {
+      "id": "migrated-fable",
+      "name": "fable",
+      "slug": "fable",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/fable/"
+    },
+    {
+      "id": "migrated-gaming-laptops",
+      "name": "gaming-laptops",
+      "slug": "gaming-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/gaming-laptops/"
+    },
+    {
+      "id": "migrated-fortnite",
+      "name": "fortnite",
+      "slug": "fortnite",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/fortnite/"
+    },
+    {
+      "id": "migrated-gaming-pcs-specs",
+      "name": "gaming-pcs-specs",
+      "slug": "gaming-pcs-specs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gaming-pcs-specs/"
+    },
+    {
+      "id": "migrated-fractal",
+      "name": "fractal",
+      "slug": "fractal",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/fractal/"
+    },
+    {
+      "id": "migrated-gigabyte",
+      "name": "gigabyte",
+      "slug": "gigabyte",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte/"
+    },
+    {
+      "id": "migrated-gigabyte-b650",
+      "name": "gigabyte-b650",
+      "slug": "gigabyte-b650",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-b650/"
+    },
+    {
+      "id": "migrated-gigabyte-b760",
+      "name": "gigabyte-b760",
+      "slug": "gigabyte-b760",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-b760/"
+    },
+    {
+      "id": "migrated-gaming-pcs",
+      "name": "gaming-pcs",
+      "slug": "gaming-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gaming-pcs/"
+    },
+    {
+      "id": "migrated-gigabyte-b850",
+      "name": "gigabyte-b850",
+      "slug": "gigabyte-b850",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-b850/"
+    },
+    {
+      "id": "migrated-genshin-impact",
+      "name": "genshin-impact",
+      "slug": "genshin-impact",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/genshin-impact/"
+    },
+    {
+      "id": "migrated-gigabyte-z690",
+      "name": "gigabyte-z690",
+      "slug": "gigabyte-z690",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-z690/"
+    },
+    {
+      "id": "migrated-gigabyte-x870",
+      "name": "gigabyte-x870",
+      "slug": "gigabyte-x870",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-x870/"
+    },
+    {
+      "id": "migrated-gigabyte-z890",
+      "name": "gigabyte-z890",
+      "slug": "gigabyte-z890",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-z890/"
+    },
+    {
+      "id": "migrated-gtav",
+      "name": "gtav",
+      "slug": "gtav",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gtav/"
+    },
+    {
+      "id": "migrated-home-office-pcs",
+      "name": "home-office-pcs",
+      "slug": "home-office-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/home-office-pcs/"
+    },
+    {
+      "id": "migrated-gigabyte-z790",
+      "name": "gigabyte-z790",
+      "slug": "gigabyte-z790",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gigabyte-z790/"
+    },
+    {
+      "id": "migrated-home-office-laptops",
+      "name": "home-office-laptops",
+      "slug": "home-office-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/home-office-laptops/"
+    },
+    {
+      "id": "migrated-intel",
+      "name": "intel",
+      "slug": "intel",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel/"
+    },
+    {
+      "id": "migrated-gta-vi",
+      "name": "gta-vi",
+      "slug": "gta-vi",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/gta-vi/"
+    },
+    {
+      "id": "migrated-intel-12thgen-desktops",
+      "name": "intel-12thgen-desktops",
+      "slug": "intel-12thgen-desktops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-12thgen-desktops/"
+    },
+    {
+      "id": "migrated-intel-14thgen-desktops",
+      "name": "intel-14thgen-desktops",
+      "slug": "intel-14thgen-desktops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-14thgen-desktops/"
+    },
+    {
+      "id": "migrated-intel-arc",
+      "name": "intel-arc",
+      "slug": "intel-arc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-arc/"
+    },
+    {
+      "id": "migrated-intel-ai-pcs",
+      "name": "intel-ai-pcs",
+      "slug": "intel-ai-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-ai-pcs/"
+    },
+    {
+      "id": "migrated-intel-arc-3",
+      "name": "intel-arc-3",
+      "slug": "intel-arc-3",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-arc-3/"
+    },
+    {
+      "id": "migrated-intel-14thgen-laptops",
+      "name": "intel-14thgen-laptops",
+      "slug": "intel-14thgen-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/intel-14thgen-laptops/"
+    },
+    {
+      "id": "migrated-intel-13thgen-laptops",
+      "name": "intel-13thgen-laptops",
+      "slug": "intel-13thgen-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/intel-13thgen-laptops/"
+    },
+    {
+      "id": "migrated-intel-arc-7",
+      "name": "intel-arc-7",
+      "slug": "intel-arc-7",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-arc-7/"
+    },
+    {
+      "id": "migrated-intel-arc-laptops",
+      "name": "intel-arc-laptops",
+      "slug": "intel-arc-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/intel-arc-laptops/"
+    },
+    {
+      "id": "migrated-intel-core-ultra-laptops",
+      "name": "intel-core-ultra-laptops",
+      "slug": "intel-core-ultra-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/intel-core-ultra-laptops/"
+    },
+    {
+      "id": "migrated-intel-core-ultra",
+      "name": "intel-core-ultra",
+      "slug": "intel-core-ultra",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-core-ultra/"
+    },
+    {
+      "id": "migrated-intel-promo",
+      "name": "intel-promo",
+      "slug": "intel-promo",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-promo/"
+    },
+    {
+      "id": "migrated-league-of-legends",
+      "name": "league-of-legends",
+      "slug": "league-of-legends",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/league-of-legends/"
+    },
+    {
+      "id": "migrated-liquid-series",
+      "name": "liquid-series",
+      "slug": "liquid-series",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/liquid-series/"
+    },
+    {
+      "id": "migrated-intel-gaming-computers",
+      "name": "intel-gaming-computers",
+      "slug": "intel-gaming-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-gaming-computers/"
+    },
+    {
+      "id": "migrated-intel-gamer-days",
+      "name": "intel-gamer-days",
+      "slug": "intel-gamer-days",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-gamer-days/"
+    },
+    {
+      "id": "migrated-intel-core-ultra-plus",
+      "name": "intel-core-ultra-plus",
+      "slug": "intel-core-ultra-plus",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/intel-core-ultra-plus/"
+    },
+    {
+      "id": "migrated-lumin-series",
+      "name": "lumin-series",
+      "slug": "lumin-series",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/lumin-series/"
+    },
+    {
+      "id": "migrated-multiscreen-computers",
+      "name": "multiscreen-computers",
+      "slug": "multiscreen-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/multiscreen-computers/"
+    },
+    {
+      "id": "migrated-marvel-rivals",
+      "name": "marvel-rivals",
+      "slug": "marvel-rivals",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/marvel-rivals/"
+    },
+    {
+      "id": "migrated-microsoft-flight-simulator",
+      "name": "microsoft-flight-simulator",
+      "slug": "microsoft-flight-simulator",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/microsoft-flight-simulator/"
+    },
+    {
+      "id": "migrated-nvidia",
+      "name": "nvidia",
+      "slug": "nvidia",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia/"
+    },
+    {
+      "id": "migrated-nvidia-back-to-school",
+      "name": "nvidia-back-to-school",
+      "slug": "nvidia-back-to-school",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-back-to-school/"
+    },
+    {
+      "id": "migrated-nvidia-ces",
+      "name": "nvidia-ces",
+      "slug": "nvidia-ces",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-ces/"
+    },
+    {
+      "id": "migrated-nvidia-frames-win-games",
+      "name": "nvidia-frames-win-games",
+      "slug": "nvidia-frames-win-games",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-frames-win-games/"
+    },
+    {
+      "id": "migrated-nvidia-geforce-gaming-pc",
+      "name": "nvidia-geforce-gaming-pc",
+      "slug": "nvidia-geforce-gaming-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-geforce-gaming-pc/"
+    },
+    {
+      "id": "migrated-nvidia-geforce-laptops",
+      "name": "nvidia-geforce-laptops",
+      "slug": "nvidia-geforce-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/nvidia-geforce-laptops/"
+    },
+    {
+      "id": "migrated-nvidia-broadcast",
+      "name": "nvidia-broadcast",
+      "slug": "nvidia-broadcast",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-broadcast/"
+    },
+    {
+      "id": "migrated-nvidia-promo",
+      "name": "nvidia-promo",
+      "slug": "nvidia-promo",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-promo/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-3050",
+      "name": "nvidia-rtx-3050",
+      "slug": "nvidia-rtx-3050",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-rtx-3050/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-50-laptops",
+      "name": "nvidia-rtx-50-laptops",
+      "slug": "nvidia-rtx-50-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/nvidia-rtx-50-laptops/"
+    },
+    {
+      "id": "migrated-minecraft",
+      "name": "minecraft",
+      "slug": "minecraft",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/minecraft/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-50-series",
+      "name": "nvidia-rtx-50-series",
+      "slug": "nvidia-rtx-50-series",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-rtx-50-series/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-40-laptops",
+      "name": "nvidia-rtx-40-laptops",
+      "slug": "nvidia-rtx-40-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/nvidia-rtx-40-laptops/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-cyberpunk2077",
+      "name": "nvidia-rtx-cyberpunk2077",
+      "slug": "nvidia-rtx-cyberpunk2077",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-rtx-cyberpunk2077/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-ai",
+      "name": "nvidia-rtx-ai",
+      "slug": "nvidia-rtx-ai",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-rtx-ai/"
+    },
+    {
+      "id": "migrated-phanteks",
+      "name": "phanteks",
+      "slug": "phanteks",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/phanteks/"
+    },
+    {
+      "id": "migrated-pro-audio-computers",
+      "name": "pro-audio-computers",
+      "slug": "pro-audio-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/pro-audio-computers/"
+    },
+    {
+      "id": "migrated-nvidia-spark",
+      "name": "nvidia-spark",
+      "slug": "nvidia-spark",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-spark/"
+    },
+    {
+      "id": "migrated-r6siege",
+      "name": "r6siege",
+      "slug": "r6siege",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/r6siege/"
+    },
+    {
+      "id": "migrated-pubg",
+      "name": "pubg",
+      "slug": "pubg",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/pubg/"
+    },
+    {
+      "id": "migrated-rma-packaging",
+      "name": "rma-packaging",
+      "slug": "rma-packaging",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/rma-packaging/"
+    },
+    {
+      "id": "migrated-rentable-ram",
+      "name": "rentable-ram",
+      "slug": "rentable-ram",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/rentable-ram/"
+    },
+    {
+      "id": "migrated-roblox",
+      "name": "roblox",
+      "slug": "roblox",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/roblox/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-laptops",
+      "name": "nvidia-rtx-laptops",
+      "slug": "nvidia-rtx-laptops",
+      "sourceUrl": "https://www.pcspecialist.co.uk/custom-laptops/nvidia-rtx-laptops/"
+    },
+    {
+      "id": "migrated-nvidia-rtx-on",
+      "name": "nvidia-rtx-on",
+      "slug": "nvidia-rtx-on",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-rtx-on/"
+    },
+    {
+      "id": "migrated-rocket-league",
+      "name": "rocket-league",
+      "slug": "rocket-league",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/rocket-league/"
+    },
+    {
+      "id": "migrated-samsung",
+      "name": "samsung",
+      "slug": "samsung",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/samsung/"
+    },
+    {
+      "id": "migrated-overwatch",
+      "name": "overwatch",
+      "slug": "overwatch",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/overwatch/"
+    },
+    {
+      "id": "migrated-samsung-9100-pro",
+      "name": "samsung-9100-pro",
+      "slug": "samsung-9100-pro",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/samsung-9100-pro/"
+    },
+    {
+      "id": "migrated-nvidia-studio",
+      "name": "nvidia-studio",
+      "slug": "nvidia-studio",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/nvidia-studio/"
+    },
+    {
+      "id": "migrated-samsung-990-evo",
+      "name": "samsung-990-evo",
+      "slug": "samsung-990-evo",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/samsung-990-evo/"
+    },
+    {
+      "id": "migrated-samsung-qvo",
+      "name": "samsung-qvo",
+      "slug": "samsung-qvo",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/samsung-qvo/"
+    },
+    {
+      "id": "migrated-sea-of-thieves",
+      "name": "sea-of-thieves",
+      "slug": "sea-of-thieves",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/sea-of-thieves/"
+    },
+    {
+      "id": "migrated-seagate-barracuda",
+      "name": "seagate-barracuda",
+      "slug": "seagate-barracuda",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate-barracuda/"
+    },
+    {
+      "id": "migrated-seagate",
+      "name": "seagate",
+      "slug": "seagate",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate/"
+    },
+    {
+      "id": "migrated-samsung-990-pro",
+      "name": "samsung-990-pro",
+      "slug": "samsung-990-pro",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/samsung-990-pro/"
+    },
+    {
+      "id": "migrated-seagate-exos",
+      "name": "seagate-exos",
+      "slug": "seagate-exos",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate-exos/"
+    },
+    {
+      "id": "migrated-seagate-firecuda",
+      "name": "seagate-firecuda",
+      "slug": "seagate-firecuda",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate-firecuda/"
+    },
+    {
+      "id": "migrated-seagate-ironwolf",
+      "name": "seagate-ironwolf",
+      "slug": "seagate-ironwolf",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate-ironwolf/"
+    },
+    {
+      "id": "migrated-starfield",
+      "name": "starfield",
+      "slug": "starfield",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/starfield/"
+    },
+    {
+      "id": "migrated-seagate-rescue",
+      "name": "seagate-rescue",
+      "slug": "seagate-rescue",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/seagate-rescue/"
+    },
+    {
+      "id": "migrated-sims4",
+      "name": "sims4",
+      "slug": "sims4",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/sims4/"
+    },
+    {
+      "id": "migrated-streaming-pcs",
+      "name": "streaming-pcs",
+      "slug": "streaming-pcs",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/streaming-pcs/"
+    },
+    {
+      "id": "migrated-thermaltake",
+      "name": "thermaltake",
+      "slug": "thermaltake",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/thermaltake/"
+    },
+    {
+      "id": "migrated-sidemen",
+      "name": "sidemen",
+      "slug": "sidemen",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/sidemen/"
+    },
+    {
+      "id": "migrated-video-editing-computers",
+      "name": "video-editing-computers",
+      "slug": "video-editing-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/video-editing-computers/"
+    },
+    {
+      "id": "migrated-verytc",
+      "name": "verytc",
+      "slug": "verytc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/verytc/"
+    },
+    {
+      "id": "migrated-windows-11",
+      "name": "windows-11",
+      "slug": "windows-11",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/windows-11/"
+    },
+    {
+      "id": "migrated-welcome-pack",
+      "name": "welcome-pack",
+      "slug": "welcome-pack",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/welcome-pack/"
+    },
+    {
+      "id": "migrated-valorant",
+      "name": "valorant",
+      "slug": "valorant",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/valorant/"
+    },
+    {
+      "id": "migrated-vr-ready-computers",
+      "name": "vr-ready-computers",
+      "slug": "vr-ready-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/vr-ready-computers/"
+    },
+    {
+      "id": "migrated-windows-11-pro",
+      "name": "windows-11-pro",
+      "slug": "windows-11-pro",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/windows-11-pro/"
+    },
+    {
+      "id": "migrated-windows-copilot-pc",
+      "name": "windows-copilot-pc",
+      "slug": "windows-copilot-pc",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/windows-copilot-pc/"
+    },
+    {
+      "id": "migrated-witcher4",
+      "name": "witcher4",
+      "slug": "witcher4",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/witcher4/"
+    },
+    {
+      "id": "migrated-windows-xbox",
+      "name": "windows-xbox",
+      "slug": "windows-xbox",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/windows-xbox/"
+    },
+    {
+      "id": "migrated-workstation-computers",
+      "name": "workstation-computers",
+      "slug": "workstation-computers",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/workstation-computers/"
+    },
+    {
+      "id": "migrated-world-cup-2026",
+      "name": "world-cup-2026",
+      "slug": "world-cup-2026",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/world-cup-2026/"
+    },
+    {
+      "id": "migrated-world-of-warcraft",
+      "name": "world-of-warcraft",
+      "slug": "world-of-warcraft",
+      "sourceUrl": "https://www.pcspecialist.co.uk/desktop-pcs/world-of-warcraft/"
+    }
+  ]
+}

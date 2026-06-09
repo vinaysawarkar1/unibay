@@ -1,0 +1,53 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: unibay-custom-pc-web:ec2
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+
+      # App
+      NEXTAUTH_URL: ${NEXTAUTH_URL}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+
+      # Database
+      DATABASE_URL: ${DATABASE_URL}
+
+      # Email (SMTP)
+      EMAIL_USER: ${EMAIL_USER}
+      EMAIL_PASSWORD: ${EMAIL_PASSWORD}
+
+      # Optional OAuth
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+
+      # Optional admin gating
+      ADMIN_EMAILS: ${ADMIN_EMAILS}
+    # If you mount nothing, the container is immutable.
+    # Add volumes later only if you need uploads or logs.
+
+  # Optional: run Postgres in the same compose stack.
+  # If you already have a managed RDS Postgres, disable this service and set DATABASE_URL accordingly.
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-unibay}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-unibay_local_dev}
+      POSTGRES_DB: ${POSTGRES_DB:-unibay}
+      POSTGRES_INITDB_ARGS: '--encoding=UTF-8 --lc-collate=C --lc-ctype=C'
+    volumes:
+      - unibay_pgdata_ec2:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U ${POSTGRES_USER:-unibay} -d ${POSTGRES_DB:-unibay}']
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  unibay_pgdata_ec2:
+

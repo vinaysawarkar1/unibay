@@ -1,0 +1,191 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             String      @id @default(uuid())
+  name           String?
+  email          String?     @unique
+  emailVerified  DateTime?
+  image          String?
+  hashedPassword String?
+  role           String      @default("user")  // 'user' | 'admin'
+
+  // Profile (Amazon-style basic details)
+  phone          String?
+  dateOfBirth    DateTime?
+  gender         String?     // 'male' | 'female' | 'other' | 'prefer_not_to_say'
+
+  createdAt      DateTime    @default(now())
+  updatedAt      DateTime    @updatedAt
+
+  accounts       Account[]
+  sessions       Session[]
+  addresses      Address[]
+  cartItems      CartItem[]
+  orders         Order[]
+  emailVerifications EmailVerification[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model EmailVerification {
+  id        String   @id @default(cuid())
+  email     String
+  code      String
+  attempts  Int      @default(0)
+  maxAttempts Int   @default(3)
+  expires   DateTime
+  verified  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([email])
+  @@index([userId])
+}
+
+model Address {
+  id          String   @id @default(cuid())
+  userId      String
+  label       String?  // 'Home', 'Work', etc. — user-defined nickname
+  fullName    String
+  phone       String
+  line1       String
+  line2       String?
+  city        String
+  state       String?  // county / state
+  postcode    String
+  country     String   @default("United Kingdom")
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model CartItem {
+  id            String   @id @default(cuid())
+  userId        String
+  quantity      Int      @default(1)
+  configuration Json
+  addedAt       DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Order {
+  id               String       @id @default(cuid())
+  userId           String
+  total            Float
+  status           String       @default("pending")  // pending | processing | shipped | delivered | cancelled
+  shippingAddress  Json?        // snapshot at order time
+  trackingNumber   String?
+  notes            String?
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
+  items            OrderItem[]
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([status])
+}
+
+model OrderItem {
+  id          String   @id @default(cuid())
+  orderId     String
+  productSnap  Json
+  quantity    Int
+  price       Float
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+}
+
+model Product {
+  id                String   @id @default(cuid())
+  slug              String   @unique
+  name              String
+  category          String   // 'laptop' | 'desktop' | 'accessory'
+  subcategory       String?
+  tagline           String?
+  description       String?
+  longDescription   String?
+  basePrice         Float
+  images            Json     @default("[]")  // string[] of image URLs
+  badge             String?
+  rating            Float    @default(0)
+  reviewCount       Int      @default(0)
+  specs             Json     @default("{}")  // Record<string,string>
+  features          Json     @default("[]")  // string[]
+  colors            Json     @default("[]")  // string[]
+  stock             String   @default("in_stock")  // in_stock | low_stock | out_of_stock | pre_order
+  deliveryDays      Int      @default(5)
+  technicalSections Json?    // ProductTechnicalSection[]
+  whatsInTheBox     Json?    // string[]
+  warrantySummary   String?
+  complianceNotes   String?
+  featured          Boolean  @default(false)
+  hidden            Boolean  @default(false)
+  sortOrder         Int      @default(0)
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@index([category])
+  @@index([hidden])
+}
+
+model BlogPost {
+  id         String   @id @default(cuid())
+  slug       String   @unique
+  title      String
+  excerpt    String?
+  coverImage String?
+  body       Json     @default("[]")  // string[] of paragraphs
+  author     String?
+  published  Boolean  @default(true)
+  date       DateTime @default(now())
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([published])
+}

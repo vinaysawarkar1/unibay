@@ -119,8 +119,8 @@ export function DesktopModel({
       )}
 
       {/* Power Button */}
-      <mesh position={[0.8, 1.2, 1.03]}>
-        <cylinderGeometry args={[0.06, 0.06, 0.02, 16]} rotation={[Math.PI / 2, 0, 0]} />
+      <mesh position={[0.8, 1.2, 1.03]} rotation={[Math.PI / 2, 0, 0]}>
+        <cylinderGeometry args={[0.06, 0.06, 0.02, 16]} />
         <meshStandardMaterial
           color="#222"
           emissive={showRGB ? new THREE.Color('#ffffff') : new THREE.Color('#333')}
@@ -136,8 +136,8 @@ export function DesktopModel({
             <meshStandardMaterial color="#0a0a0f" metalness={0.5} roughness={0.5} />
           </RoundedBox>
           {/* Fan Blades */}
-          <mesh ref={addFanRef} position={[0, 0, 0.05]}>
-            <cylinderGeometry args={[0.35, 0.35, 0.02, 7]} rotation={[Math.PI / 2, 0, 0]} />
+          <mesh ref={addFanRef} position={[0, 0, 0.05]} rotation={[Math.PI / 2, 0, 0]}>
+            <cylinderGeometry args={[0.35, 0.35, 0.02, 7]} />
             <meshStandardMaterial
               color="#222"
               emissive={showRGB ? new THREE.Color(rgbColor) : undefined}
@@ -194,8 +194,8 @@ export function DesktopModel({
           </RoundedBox>
           {/* GPU Fans */}
           {[-0.35, 0.35].map((x, i) => (
-            <mesh key={i} ref={addFanRef} position={[x, 0.08, 0]}>
-              <cylinderGeometry args={[0.18, 0.18, 0.02, 7]} rotation={[Math.PI / 2, 0, 0]} />
+            <mesh key={i} ref={addFanRef} position={[x, 0.08, 0]} rotation={[Math.PI / 2, 0, 0]}>
+              <cylinderGeometry args={[0.18, 0.18, 0.02, 7]} />
               <meshStandardMaterial color="#222" transparent opacity={0.9} />
             </mesh>
           ))}
@@ -256,8 +256,8 @@ export function DesktopModel({
         </RoundedBox>
         {/* Exhaust Fan */}
         <group position={[0.5, 0.8, -0.03]}>
-          <mesh ref={addFanRef}>
-            <cylinderGeometry args={[0.35, 0.35, 0.02, 7]} rotation={[Math.PI / 2, 0, 0]} />
+          <mesh ref={addFanRef} rotation={[Math.PI / 2, 0, 0]}>
+            <cylinderGeometry args={[0.35, 0.35, 0.02, 7]} />
             <meshStandardMaterial color="#222" transparent opacity={0.9} />
           </mesh>
         </group>

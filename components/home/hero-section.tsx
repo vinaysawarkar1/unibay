@@ -1,5 +1,6 @@
 'use client'
 
+
 import { useRef, useEffect } from 'react'
 import Link from 'next/link'
 import { motion, useScroll, useTransform } from 'framer-motion'
@@ -38,7 +39,7 @@ export function HeroSection() {
             key={i}
             className="absolute w-1 h-1 bg-primary rounded-full"
             initial={{
-              x: Math.random() * 100 + '%',
+              x: `${(i * 97) % 100}%`,
               y: '100%',
               opacity: 0,
             }}
@@ -134,10 +135,10 @@ export function HeroSection() {
             className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-3xl mx-auto"
           >
             {[
-              { value: '50K+', label: 'Systems Built' },
+              { value: '500+', label: 'Systems Built' },
               { value: '4.9★', label: 'Customer Rating' },
               { value: '99%', label: 'On-Time Delivery' },
-              { value: '3yr', label: 'Warranty' },
+              { value: '1yr', label: 'Warranty' },
             ].map((stat) => (
               <div key={stat.label} className="text-center">
                 <p className="text-2xl sm:text-3xl font-bold gradient-text mb-1">{stat.value}</p>
@@ -155,15 +156,28 @@ export function HeroSection() {
           className="relative mt-16 lg:mt-20"
         >
           <div className="relative max-w-4xl mx-auto">
-            {/* Laptop/Desktop Preview Placeholder - will be replaced with 3D */}
+            {/* Hero product showcase */}
             <div className="relative aspect-[16/10] rounded-2xl overflow-hidden gradient-border">
-              <div className="absolute inset-[1px] rounded-2xl bg-card flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-6 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                    <Zap className="w-16 h-16 text-primary" />
+              <div className="absolute inset-[1px] rounded-2xl overflow-hidden">
+                <img
+                  src="https://images.unsplash.com/photo-1591488320449-011701bb6704?w=1600&q=90&fit=crop&auto=format"
+                  alt="UNIBAY Gaming PC"
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <div className="flex items-end justify-between gap-4">
+                    <div>
+                      <p className="text-xs text-primary font-medium uppercase tracking-widest mb-1">UNIBAY Titan X</p>
+                      <p className="text-2xl font-bold">Custom Gaming PC</p>
+                      <p className="text-sm text-muted-foreground mt-1">RTX 4090 · i9-14900K · 64GB DDR5</p>
+                    </div>
+                    <div className="text-right">
+                      <p className="text-xs text-muted-foreground">from</p>
+                      <p className="text-2xl font-bold gradient-text">£3,999</p>
+                    </div>
                   </div>
-                  <p className="text-xl font-semibold gradient-text mb-2">3D Preview Coming</p>
-                  <p className="text-sm text-muted-foreground">Interactive product visualization</p>
                 </div>
               </div>
             </div>

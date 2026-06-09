@@ -10,5 +10,13 @@ export default async function LegalPage({
   const { slug } = await params
   const doc = getLegalDoc(slug)
   if (!doc) notFound()
-  return <SimpleArticle title={doc.title} paragraphs={doc.body} />
+  return (
+    <SimpleArticle
+      title={doc.title}
+      intro={doc.intro}
+      lastUpdated={doc.lastUpdated}
+      sections={doc.sections}
+      paragraphs={doc.body}
+    />
+  )
 }

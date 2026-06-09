@@ -10,7 +10,6 @@ import {
   Instagram,
   Youtube,
   Twitch,
-  CreditCard,
   Shield,
   Truck,
   Headphones
@@ -38,10 +37,6 @@ const footerLinks = {
   ],
   company: [
     { label: 'About UNIBAY', href: '/company/about' },
-    { label: 'Careers', href: '/company/careers' },
-    { label: 'Press & Media', href: '/company/press' },
-    { label: 'Partner Program', href: '/company/partners' },
-    { label: 'Sustainability', href: '/company/sustainability' },
     { label: 'Blog', href: '/blog' },
   ],
   legal: [
@@ -62,8 +57,7 @@ const socialLinks = [
 
 const features = [
   { icon: Truck, label: 'Free Shipping', description: 'On orders over £999' },
-  { icon: Shield, label: '3 Year Warranty', description: 'Comprehensive coverage' },
-  { icon: CreditCard, label: '0% Financing', description: 'Up to 24 months' },
+  { icon: Shield, label: '1 Year Warranty', description: 'Comprehensive coverage' },
   { icon: Headphones, label: '24/7 Support', description: 'Expert assistance' },
 ]
 

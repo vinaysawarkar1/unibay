@@ -10,5 +10,13 @@ export default async function SupportTopicPage({
   const { topic } = await params
   const doc = getSupportTopic(topic)
   if (!doc) notFound()
-  return <SimpleArticle title={doc.title} paragraphs={doc.body} />
+  return (
+    <SimpleArticle
+      title={doc.title}
+      intro={doc.intro}
+      lastUpdated={doc.lastUpdated}
+      sections={doc.sections}
+      paragraphs={doc.body}
+    />
+  )
 }

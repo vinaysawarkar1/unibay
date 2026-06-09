@@ -10,7 +10,7 @@ import { useMergedProducts } from '@/hooks/use-merged-catalog'
 import { useCartStore } from '@/store'
 import { buildFromProduct } from '@/lib/build'
 import { formatGBP } from '@/lib/currency'
-import { Cpu, Monitor, Star } from 'lucide-react'
+import { Cpu, Monitor, ShoppingCart, Star } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
 export function ProductDetailView() {
@@ -128,20 +128,43 @@ export function ProductDetailView() {
             </ul>
           )}
 
-          <div className="flex flex-wrap gap-3 mb-10">
-            <span className="text-3xl font-bold">{formatGBP(product.basePrice)}</span>
-            <span className="text-sm text-muted-foreground self-end pb-1">
-              From · excludes bespoke upgrades
-            </span>
-          </div>
-
-          <div className="flex flex-wrap gap-3">
-            <Button asChild size="lg" className="glow-cyan">
-              <Link href={configureHref}>Configure this line</Link>
-            </Button>
-            <Button size="lg" variant="outline" onClick={addPrebuilt}>
-              Add base configuration to basket
-            </Button>
+          {/* Price block */}
+          <div className="rounded-xl border border-border bg-card/40 p-5 mb-6">
+            <div className="flex flex-wrap items-end justify-between gap-4 mb-4">
+              <div>
+                <p className="text-xs text-muted-foreground mb-1">Starting price (inc. VAT)</p>
+                <p className="text-4xl font-bold gradient-text">{formatGBP(product.basePrice)}</p>
+              </div>
+              <div className="text-right text-sm space-y-1">
+                <p className={
+                  product.stock === 'in_stock' ? 'text-green-500 font-medium' :
+                  product.stock === 'low_stock' ? 'text-yellow-500 font-medium' :
+                  product.stock === 'out_of_stock' ? 'text-red-500 font-medium' :
+                  'text-blue-400 font-medium'
+                }>
+                  {product.stock === 'in_stock' ? '● In stock' :
+                   product.stock === 'low_stock' ? '● Low stock' :
+                   product.stock === 'out_of_stock' ? '● Out of stock' :
+                   '● Pre-order'}
+                </p>
+                {product.deliveryDays && (
+                  <p className="text-muted-foreground">Delivered in {product.deliveryDays} working days</p>
+                )}
+              </div>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <Button size="lg" className="glow-cyan flex-1 sm:flex-none" onClick={addPrebuilt}
+                disabled={product.stock === 'out_of_stock'}>
+                <ShoppingCart className="w-4 h-4 mr-2" />
+                Add to basket
+              </Button>
+              <Button asChild size="lg" variant="outline" className="flex-1 sm:flex-none">
+                <Link href={configureHref}>
+                  <Cpu className="w-4 h-4 mr-2" />
+                  Customise build
+                </Link>
+              </Button>
+            </div>
           </div>
 
           <div className="mt-12 rounded-xl border border-border bg-card/50 p-6">
@@ -213,13 +236,16 @@ export function ProductDetailView() {
             <p>
               Stock:{' '}
               <span className="text-foreground font-medium">
-                {product.stock.replaceAll('_', ' ')}
+                {typeof product.stock === 'string' && product.stock.length > 0
+                  ? product.stock.replaceAll('_', ' ')
+                  : 'unknown'}
               </span>{' '}
               · Typical lead time:{' '}
               <span className="text-foreground font-medium">
-                {product.deliveryDays} working days
+                {Number.isFinite(product.deliveryDays) ? product.deliveryDays : '—'} working days
               </span>{' '}
               (UK mainland).
+
             </p>
           </div>
         </div>

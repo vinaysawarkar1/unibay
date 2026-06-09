@@ -45,7 +45,7 @@ export function CTASection() {
           {/* Description */}
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-10 leading-relaxed">
             Start your build today and experience the UNIBAY difference. 
-            Premium components, expert assembly, and exceptional support - all backed by our 3-year warranty.
+            Premium components, expert assembly, and exceptional support - all backed by our 1-year warranty.
           </p>
 
           {/* CTAs */}
@@ -79,24 +79,7 @@ export function CTASection() {
         </motion.div>
 
         {/* Floating Cards */}
-        <div className="hidden lg:block">
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            animate={isInView ? { opacity: 1, x: 0 } : {}}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="absolute left-8 top-1/2 -translate-y-1/2 glass rounded-xl p-4 shadow-xl"
-          >
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-green-500/20 flex items-center justify-center">
-                <span className="text-green-500 font-bold">0%</span>
-              </div>
-              <div>
-                <p className="font-medium">Financing Available</p>
-                <p className="text-xs text-muted-foreground">Up to 24 months</p>
-              </div>
-            </div>
-          </motion.div>
-
+          <div className="hidden lg:block">
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : {}}
@@ -105,7 +88,7 @@ export function CTASection() {
           >
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
-                <span className="text-primary font-bold">3yr</span>
+                <span className="text-primary font-bold">1yr</span>
               </div>
               <div>
                 <p className="font-medium">Premium Warranty</p>

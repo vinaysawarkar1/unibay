@@ -2,20 +2,21 @@ import type { Metadata, Viewport } from 'next'
 import { Inter, Orbitron, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import { AppSessionProvider } from '@/components/providers/session-provider'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap',
 })
 
-const orbitron = Orbitron({ 
+const orbitron = Orbitron({
   subsets: ['latin'],
   variable: '--font-orbitron',
   display: 'swap',
 })
 
-const jetbrainsMono = JetBrains_Mono({ 
+const jetbrainsMono = JetBrains_Mono({
   subsets: ['latin'],
   variable: '--font-jetbrains',
   display: 'swap',
@@ -90,11 +91,17 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${orbitron.variable} ${jetbrainsMono.variable} bg-background`}>
+    <html
+      lang="en"
+      className={`${inter.variable} ${orbitron.variable} ${jetbrainsMono.variable} bg-background`}
+    >
       <body className="font-sans antialiased min-h-screen">
-        {children}
+        <AppSessionProvider>
+          {children}
+        </AppSessionProvider>
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
     </html>
   )
 }
+

@@ -252,6 +252,9 @@ interface CartState {
   closeCart: () => void
   getTotalPrice: () => number
   getTotalItems: () => number
+  // Sync with server for authenticated users
+  loadFromServer: () => Promise<void>
+  pushLocalToServer: () => Promise<void>
 }
 
 export const useCartStore = create<CartState>()(
@@ -304,6 +307,26 @@ export const useCartStore = create<CartState>()(
       getTotalItems: () => {
         const { items } = get()
         return items.reduce((total, item) => total + item.quantity, 0)
+      },
+      loadFromServer: async () => {
+        try {
+          const res = await fetch('/api/cart')
+          if (!res.ok) return
+          const data = await res.json()
+          if (data?.items) set({ items: data.items })
+        } catch (err) {
+          // ignore
+        }
+      },
+      pushLocalToServer: async () => {
+        try {
+          const { items } = get()
+          for (const item of items) {
+            await fetch('/api/cart', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ configuration: item.configuration, quantity: item.quantity }) })
+          }
+        } catch (err) {
+          // ignore
+        }
       },
     }),
     {

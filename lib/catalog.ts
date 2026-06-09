@@ -1,8 +1,10 @@
 import type { Product } from '@/types'
 import raw from '@/data/products.json'
 import { enrichProduct } from '@/lib/enrich-products'
+import { resolveProductImageUrls } from '@/lib/product-assets'
 
 export type ProductsFile = typeof raw
+
 
 const file = raw as ProductsFile
 
@@ -12,8 +14,17 @@ export function getRawProducts(): Product[] {
     ...file.desktops,
     ...file.accessories,
   ] as Product[]
-  return flat.map((p) => enrichProduct(p))
+
+  return flat
+    // Strip empty migration stubs (no price, no real name, no specs)
+    .filter((p) => p.basePrice > 0 && p.name && p.name.length > 2 && !p.id.startsWith('migrated-'))
+    .map((p) => {
+      const enriched = enrichProduct(p)
+      const { images } = resolveProductImageUrls(enriched)
+      return { ...enriched, images }
+    })
 }
+
 
 export function getProductBySlug(slug: string): Product | undefined {
   return getRawProducts().find((p) => p.slug === slug)

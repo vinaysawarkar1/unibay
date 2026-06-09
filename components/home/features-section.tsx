@@ -21,8 +21,8 @@ const features = [
   },
   {
     icon: Shield,
-    title: '3-Year Warranty',
-    description: 'Comprehensive coverage including parts and labor for complete peace of mind.',
+    title: '1-Year Warranty',
+    description: 'Comprehensive coverage including parts and labour for the first year.',
   },
   {
     icon: Wrench,

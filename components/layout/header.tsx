@@ -10,16 +10,18 @@ import {
   ShoppingCart, 
   User, 
   ChevronDown,
+  LogOut,
   Laptop,
   Monitor,
   Cpu,
   Gamepad2,
   Headphones,
-  Sparkles,
   Package
 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
+
 import { SiteLogo } from '@/components/brand/site-logo'
+import { AccountMenu } from '@/components/layout/account-menu'
 import { useCartStore, useUIStore } from '@/store'
 import { cn } from '@/lib/utils'
 
@@ -110,10 +112,6 @@ export function Header() {
                 </Link>
                 <Link href="/track-order" className="hover:text-foreground transition-colors">
                   Track Order
-                </Link>
-                <Link href="/financing" className="hover:text-foreground transition-colors flex items-center gap-1">
-                  <Sparkles className="w-3 h-3" />
-                  0% Financing Available
                 </Link>
               </div>
               <div className="flex items-center gap-6">
@@ -210,16 +208,7 @@ export function Header() {
                 <Search className="w-5 h-5" />
               </Button>
 
-              <Link href="/account">
-                <Button
-                  variant="ghost"
-                  size="icon"
-                  className="rounded-full hidden sm:flex"
-                  aria-label="Account"
-                >
-                  <User className="w-5 h-5" />
-                </Button>
-              </Link>
+              <AccountMenu />
 
               <Link href="/cart">
                 <Button
@@ -341,6 +330,7 @@ export function Header() {
                       Account
                     </Button>
                   </Link>
+
                 </div>
 
                 <div className="mt-8 pt-8 border-t border-border/50 space-y-3 text-sm text-muted-foreground">
@@ -350,10 +340,6 @@ export function Header() {
                   <Link href="/track-order" className="flex items-center gap-2 hover:text-foreground transition-colors">
                     <Package className="w-4 h-4" />
                     Track Order
-                  </Link>
-                  <Link href="/financing" className="flex items-center gap-2 hover:text-foreground transition-colors">
-                    <Sparkles className="w-4 h-4" />
-                    0% Financing
                   </Link>
                 </div>
               </div>

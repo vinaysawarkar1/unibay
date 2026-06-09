@@ -165,9 +165,9 @@ export function TestimonialsSection() {
         >
           {[
             { value: '4.9/5', label: 'Average Rating' },
-            { value: '50,000+', label: 'Happy Customers' },
+            { value: '500+', label: 'Happy Customers' },
             { value: '98%', label: 'Would Recommend' },
-            { value: '12,000+', label: 'Five Star Reviews' },
+            { value: '400+', label: 'Five Star Reviews' },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <p className="text-3xl lg:text-4xl font-bold gradient-text mb-1">
