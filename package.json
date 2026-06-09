@@ -15,6 +15,7 @@
     "db:status": "node scripts/db.js status",
     "db:reset": "node scripts/db.js reset",
     "db:push": "prisma db push",
+    "db:seed": "node scripts/seed-products.mjs",
     "fetch:sitemap": "node scripts/fetch_sitemap.js",
     "extract:products": "node scripts/extract_product_urls.js",
     "scrape:products": "node scripts/scrape_products.js",
