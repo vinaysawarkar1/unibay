@@ -1,4 +1,5 @@
 import type { BuildConfiguration, PerformanceEstimate, Product } from '@/types'
+import { generateUUID } from '@/lib/uuid'
 
 export const zeroPerformance: PerformanceEstimate = {
   gaming1080p: 0,
@@ -11,7 +12,7 @@ export const zeroPerformance: PerformanceEstimate = {
 
 export function buildFromProduct(product: Product): BuildConfiguration {
   return {
-    id: crypto.randomUUID(),
+    id: generateUUID(),
     name: product.name,
     type: product.category === 'laptop' ? 'laptop' : 'desktop',
     baseProduct: product,
@@ -56,7 +57,7 @@ export function finalizeBuild(
     (partial.components?.powerSupply?.price ?? 0)
 
   return {
-    id: partial.id ?? crypto.randomUUID(),
+    id: partial.id ?? generateUUID(),
     name: partial.name ?? 'Custom UNIBAY build',
     type: partial.type ?? 'desktop',
     baseProduct: base,

@@ -15,7 +15,9 @@ import type { PlacedOrder } from '@/store/admin-catalog-store'
 import { formatGBP } from '@/lib/currency'
 
 function generateOrderId() {
-  return `UB-${crypto.randomUUID().slice(0, 8).toUpperCase()}`
+  // generateUUID works on both HTTP and HTTPS (no secure context needed)
+  const r = () => Math.floor(Math.random() * 0x10000).toString(16).padStart(4, '0').toUpperCase()
+  return `UB-${r()}${r()}`.slice(0, 11)
 }
 
 type SavedAddress = {

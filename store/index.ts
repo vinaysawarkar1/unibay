@@ -1,5 +1,6 @@
 import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
+import { generateUUID } from '@/lib/uuid'
 import type { 
   BuildConfiguration, 
   CartItem, 
@@ -41,7 +42,7 @@ interface ConfiguratorState {
 
 export const useConfiguratorStore = create<ConfiguratorState>()((set, get) => ({
   currentBuild: {
-    id: crypto.randomUUID(),
+    id: generateUUID(),
     name: 'My Custom Build',
     type: 'desktop',
     components: {},
@@ -189,7 +190,7 @@ export const useConfiguratorStore = create<ConfiguratorState>()((set, get) => ({
   resetBuild: () =>
     set({
       currentBuild: {
-        id: crypto.randomUUID(),
+        id: generateUUID(),
         name: 'My Custom Build',
         type: 'desktop',
         components: {},
@@ -268,7 +269,7 @@ export const useCartStore = create<CartState>()(
           items: [
             ...state.items,
             {
-              id: crypto.randomUUID(),
+              id: generateUUID(),
               configuration,
               quantity: 1,
               addedAt: new Date().toISOString(),
